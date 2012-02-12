@@ -13,8 +13,8 @@
 		D8088F1714E75E19004506E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8088F1514E75E19004506E2 /* InfoPlist.strings */; };
 		D8088F1914E75E19004506E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8088F1814E75E19004506E2 /* main.m */; };
 		D8088F1D14E75E19004506E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8088F1C14E75E19004506E2 /* AppDelegate.m */; };
-		D8088F2014E75E19004506E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8088F1F14E75E19004506E2 /* ViewController.m */; };
-		D8088F2314E75E19004506E2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8088F2114E75E19004506E2 /* ViewController.xib */; };
+		D8088F2314E75E19004506E2 /* ContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8088F2114E75E19004506E2 /* ContainerViewController.xib */; };
+		D8088F2B14E75EA1004506E2 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8088F2A14E75EA1004506E2 /* ContainerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +22,15 @@
 		D8088F0C14E75E19004506E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8088F0E14E75E19004506E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8088F1014E75E19004506E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8088F1414E75E19004506E2 /* ContainerViewController-Info.plist */ = {isa = PBXFileReference; path = "ContainerViewController-Info.plist"; sourceTree = "<group>"; };
+		D8088F1414E75E19004506E2 /* ContainerViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContainerViewController-Info.plist"; sourceTree = "<group>"; };
 		D8088F1614E75E19004506E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8088F1814E75E19004506E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8088F1A14E75E19004506E2 /* ContainerViewController-Prefix.pch */ = {isa = PBXFileReference; path = "ContainerViewController-Prefix.pch"; sourceTree = "<group>"; };
-		D8088F1B14E75E19004506E2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8088F1A14E75E19004506E2 /* ContainerViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContainerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		D8088F1B14E75E19004506E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8088F1C14E75E19004506E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8088F1E14E75E19004506E2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		D8088F1F14E75E19004506E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D8088F2214E75E19004506E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D8088F2214E75E19004506E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ContainerViewController.xib; sourceTree = "<group>"; };
+		D8088F2914E75EA1004506E2 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		D8088F2A14E75EA1004506E2 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 			children = (
 				D8088F1B14E75E19004506E2 /* AppDelegate.h */,
 				D8088F1C14E75E19004506E2 /* AppDelegate.m */,
-				D8088F1E14E75E19004506E2 /* ViewController.h */,
-				D8088F1F14E75E19004506E2 /* ViewController.m */,
-				D8088F2114E75E19004506E2 /* ViewController.xib */,
+				D8088F2914E75EA1004506E2 /* ContainerViewController.h */,
+				D8088F2A14E75EA1004506E2 /* ContainerViewController.m */,
+				D8088F2114E75E19004506E2 /* ContainerViewController.xib */,
 				D8088F1314E75E19004506E2 /* Supporting Files */,
 			);
 			path = ContainerViewController;
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8088F1714E75E19004506E2 /* InfoPlist.strings in Resources */,
-				D8088F2314E75E19004506E2 /* ViewController.xib in Resources */,
+				D8088F2314E75E19004506E2 /* ContainerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +163,7 @@
 			files = (
 				D8088F1914E75E19004506E2 /* main.m in Sources */,
 				D8088F1D14E75E19004506E2 /* AppDelegate.m in Sources */,
-				D8088F2014E75E19004506E2 /* ViewController.m in Sources */,
+				D8088F2B14E75EA1004506E2 /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +178,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D8088F2114E75E19004506E2 /* ViewController.xib */ = {
+		D8088F2114E75E19004506E2 /* ContainerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D8088F2214E75E19004506E2 /* en */,
 			);
-			name = ViewController.xib;
+			name = ContainerViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
